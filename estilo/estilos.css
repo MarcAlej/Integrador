@@ -8,9 +8,63 @@ body{
 font-family: 'Poppins', sans-serif;
 }
 
+nav{
+    padding: 10px 0px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right:10px ;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: blue;
+}
+
 #encabezado{
+    min-height: 70px;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 10px;
 }
 
 #logo{
-    width: 15%;
+    display:flex;
+    align-items: center;
+    background-color: white;
+}
+
+#logo img{
+    width: 100%;
+    align-items: center;
+}
+
+#botonArriba{
+    position: fixed;
+    bottom: 20px;
+    right: -100px;
+    width: 60px;
+    transition: all 2s;
+}
+
+@media (min-width:700px){
+    #encabezado{
+        display: flex;
+        height: 70px;
+        background-color:  #FC7300;
+        justify-content: space-between;
+    }
+    #logo{
+        display:flex;
+        align-items: center;
+        background-color: #FC7300;
+        width: 15%;
+        height: 70px;
+    }
+    #logo img{
+        width: 100%;
+        align-items: center;
+    }
 }
