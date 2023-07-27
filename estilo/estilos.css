@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    width: 100%;
 }
 
 body{
@@ -38,6 +39,10 @@ nav a:hover{
     background-color: #FC7300;
 }
 
+#menu a{
+    padding: 10px;
+}
+
 #logo{
     display:flex;
     align-items: center;
@@ -60,12 +65,30 @@ nav a:hover{
 
 #fondoPag{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    width: 10px;
-    height: 10px;
 }
 
 #map{
+}
+#quienSomos{
+    text-align: center;
+    padding: 10px;
+    background-color: #1F8A70;
+}
+#elegir{
+    text-align: center;
+    background-color: #00425A;
+    padding: 10px;
+}
+#proposicion{
+    text-align: center;
+    color:white;
+    background-color: #181823;
+    padding: 10px;
+}
+#news{
+    text-align: center;
+    background-color: #EFF5F5;
+    padding: 10px;
 }
 
 @media (min-width:700px){    
@@ -88,5 +111,14 @@ nav a:hover{
     #logo img{
         width: 100%;
         align-items: center;
+    }
+    #nosotros{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding: 0;
+        margin: 0;
+    }
+    #nosotros img{
+        width: 80%;
     }
 }
