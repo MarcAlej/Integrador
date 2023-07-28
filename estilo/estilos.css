@@ -63,10 +63,6 @@ nav a:hover{
     transition: all 2s;
 }
 
-#fondoPag{
-    display: grid;
-}
-
 #map{
 }
 #quienSomos{
@@ -89,6 +85,31 @@ nav a:hover{
     text-align: center;
     background-color: #EFF5F5;
     padding: 10px;
+}
+#formulario{
+    padding: 10px;
+}
+#nombre{
+    padding: 10px;
+    text-align: center;
+}
+#mail{
+    padding: 10px;
+    text-align: center;
+}
+#btnEnv{
+    padding: 10px;
+}
+#mensajeForm{
+    text-align: center;
+}
+#areaTxt{
+    resize: none;
+    text-align: center;
+}
+#foot{
+    background-color: #FC7300;
+    align-items: center;
 }
 
 @media (min-width:700px){    
@@ -120,5 +141,8 @@ nav a:hover{
     }
     #nosotros img{
         width: 80%;
+    }
+    #mensajeMapa{
+        text-align: center;
     }
 }
