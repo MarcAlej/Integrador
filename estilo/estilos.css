@@ -133,52 +133,16 @@ nav a:hover{
         width: 100%;
         align-items: center;
     }
-    #nosotros{
+    .seccion{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         padding: 0;
         margin: 0;
     }
-    #nosotros img{
+    .seccion img{
         align-self: center;
     }
-    #nosotros p{
-        text-align: center;
-    }
-    #elegirnos{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        padding: 0;
-        margin: 0;
-    }
-    #elegirnos img{
-        align-self: center;
-    }
-    #elegirnos p{
-        text-align: center;
-    }
-    #propuesta{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        padding: 0;
-        margin: 0;
-    }
-    #propuesta img{
-        align-self: center;
-    }
-    #propuesta p{
-        text-align: center;
-    }
-    #noticias{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        padding: 0;
-        margin: 0;
-    }
-    #noticias img{
-        align-self: center;
-    }
-    #noticias p{
+    .seccion p{
         text-align: center;
     }
     #mensajeMapa{
