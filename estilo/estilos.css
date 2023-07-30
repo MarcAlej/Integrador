@@ -153,10 +153,22 @@ nav a:hover{
         /*margin-left: 350px;*/
         width: 50%;
     }
+    
+    #foot{
+        display: grid;
+        grid-template-columns: 2fr 0.75fr 1fr;
+        align-items: center;
+    }
+
+    #foot div ul li{
+        padding: 5px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+/*
     #mapa{
-        margin-left: 350px;
-        align-self: center;
-        margin: auto;
         width: 50%;
     }
+*/
+
 }
