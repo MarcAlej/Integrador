@@ -100,9 +100,6 @@ nav a:hover{
 #btnEnv{
     padding: 10px;
 }
-#mensajeForm{
-    text-align: center;
-}
 #areaTxt{
     resize: none;
     text-align: center;
@@ -110,6 +107,11 @@ nav a:hover{
 #foot{
     background-color: #FC7300;
     align-items: center;
+}
+
+.textoFondo{
+    text-align: center;
+    padding: 5px;
 }
 
 @media (min-width:700px){    
@@ -145,9 +147,6 @@ nav a:hover{
     .seccion p{
         text-align: center;
     }
-    #mensajeMapa{
-        text-align: center;
-    }
     #formulario{
         margin: auto;
         /*margin-left: 350px;*/
@@ -160,7 +159,8 @@ nav a:hover{
         align-items: center;
     }
 
-    #foot div ul li{
+
+    #foot section ul li{
         padding: 5px;
         text-decoration: none;
         list-style-type: none;
